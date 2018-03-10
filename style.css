@@ -1,0 +1,46 @@
+#warning {
+    color: red;
+    font-size: 15px;
+}
+
+div #opdracht {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+table #dice2 {
+    background: yellow;
+    position: absolute;
+    inline-box-align: inherit;
+    float: right;
+    
+}
+
+table  #dice1{
+    display: inline-block;
+    float: left;
+    margin-left: 600px;
+    border-radius: 30%;
+
+}
+
+form{
+    position: relative;
+    z-index: auto;
+    margin-left: 655px;
+    
+}
+
+input[type=submit] {
+    width: 5em;  
+    height: 10em;
+}
+
+body {
+    background-image: url("img/alcohol.jpg");
+    background-repeat: no-repeat, repeat;
+    background-blend-mode: lighten;
+    opacity: 1.0;
+}

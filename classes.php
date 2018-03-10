@@ -35,15 +35,3 @@ class Dice {
     
 
 }
-
-
-class player {
-    public $points;
-    public $name;
-    
-    function count_points(){
-        
-    }
-    
-    
-}
