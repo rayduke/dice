@@ -47,7 +47,8 @@ function opdrachten(){
                        . ' die moeten drinken','Speler links van jouw moet drinken '
                         . '', 'Drink het aantal slokken dat je gegooid hebt'];
     
-    echo '<div style="background: rgba(0, 0, 0, 0.8);color: white;position: absolute;bottom: 250px;width: 100%;text-align: center;font-size:60px;">';
+    echo '<div style="background: rgba(0, 0, 0, 0.8);color: white;position: '
+          . 'absolute;bottom: 250px;width: 100%;text-align: center;font-size:60px;">';
     echo $opdrachten[array_rand($opdrachten)];
     echo "</div>";
     
